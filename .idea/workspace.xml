@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51e31f2f-a506-45ca-b2c1-788f4dad4380" name="Changes" comment="" />
+    <list default="true" id="51e31f2f-a506-45ca-b2c1-788f4dad4380" name="Changes" comment="начало" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +22,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Windows"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -41,6 +42,19 @@
       <option name="presentableId" value="Default" />
       <updated>1713739517899</updated>
     </task>
+    <task id="LOCAL-00001" summary="начало">
+      <option name="closed" value="true" />
+      <created>1713739614113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713739614113</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="начало" />
+    <option name="LAST_COMMIT_MESSAGE" value="начало" />
   </component>
 </project>
