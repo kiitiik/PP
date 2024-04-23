@@ -1,11 +1,17 @@
 {% extends 'main/layout.html' %}
 
-{% block title %}Главная страница{% endblock %}
+{% block title %}{{ title }}{% endblock %}
 
 {% block content %}
     <div class="features">
-        <h1>Главная страница</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, dignissimos nulla optio recusandae reiciendis repudiandae.</p>
+        <h1>{{ title }}</h1>
+        <div class="alert alert-warning" >
+        <p>Начните свой путь в искусстве приготовления кофе в нашем виртуальном учебном пространстве.
+            Наши курсы и программы разработаны опытными мастерами бариста, чтобы предоставить вам самые современные знания, навыки и инструменты,
+            необходимые для успешного старта в мире профессионального кофейного искусства.
+            Мы уверены, что каждый из вас, влюбленных в кофе или только начинающих свое знакомство с этим напитком,
+            найдет здесь что-то ценное и вдохновляющее.</p>
+        </div>
         <button class="btn btn-warning">назад</button>
     </div>
 {% endblock %}
