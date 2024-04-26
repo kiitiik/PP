@@ -21,17 +21,17 @@ class NewsUpdateView(PermissionRequiredMixin, UpdateView):
     model = Artiles
     template_name = 'news/create.html'
     form_class = ArtilesForm
-    permission_required = 'news.change_news'
+    permission_required = 'news.change_artiles'
 
 
 class NewsDeleteView(PermissionRequiredMixin, DeleteView):
     model = Artiles
     success_url = '/news/'
     template_name = 'news/news-delete.html'
-    permission_required = 'news.delete_news'
+    permission_required = 'news.delete_artiles'
 
 
-@permission_required(perm='news.add_news', raise_exception=True)
+@permission_required(perm='news.add_artiles', raise_exception=True)
 def create(request):
     error = ''
     if request.method == 'POST':

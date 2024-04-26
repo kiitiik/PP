@@ -31,7 +31,7 @@
             <a href="{% url 'users:login' %}"><li><i class="fa-solid fa-envelope"></i> Войти </li></a>
             <a href="{% url 'users:register' %}"><li><i class="fa-solid fa-address-card"></i> Регистрация </li></a>
              {% endif %}
-            {% if perms.news.add_news %}
+            {% if perms.news.add_artiles %}
             <a href="{% url 'create' %}"><li><button class="btn btn-info"><i class="fas fa-plus-circle"></i>Добавить запись</button></li></a>
             {% endif %}
         </ul>
