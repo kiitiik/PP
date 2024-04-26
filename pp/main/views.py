@@ -13,3 +13,5 @@ def index(request):
     return render(request, 'main/index.html',data)
 def about(request):
     return render(request, 'main/about.html')
+def video(request):
+    return render(request, 'main/video.html')

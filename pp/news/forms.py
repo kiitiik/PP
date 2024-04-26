@@ -9,11 +9,11 @@ class ArtilesForm(ModelForm):
         widgets = {
             "title": TextInput(attrs={
                 'class': 'form-control',
-                'placeholder': "Название статьи"
+                'placeholder': "Название Модуля"
             }),
             "anons": TextInput(attrs={
                 'class': 'form-control',
-                'placeholder': "Анонс статьи"
+                'placeholder': "Анонс "
             }),
             "date": DateTimeInput(attrs={
                 'class': 'form-control',
@@ -21,6 +21,6 @@ class ArtilesForm(ModelForm):
             }),
             "full_text": Textarea(attrs={
                 'class': 'form-control',
-                'placeholder': "Текст статьи"
+                'placeholder': "Текст Модуля"
             })
         }

@@ -1,10 +1,10 @@
 {% extends 'main/layout.html' %}
 
-{% block title %}Добавление статьи{% endblock %}
+{% block title %}Добавление модуля{% endblock %}
 
 {% block content %}
     <div class="features">
-        <h1>Добавление статьи</h1>
+        <h1>Добавление модуля</h1>
         <form method="post">
             {% csrf_token %}
             {{ form.title }}<br>
@@ -12,12 +12,12 @@
             {{ form.full_text }}<br>
             {{ form.date }}<br>
             <span>{{ error }}</span>
-<!--            <input type="text" placeholder="Название статьи" class="form-control"> <br>-->
-<!--            <input type="text" placeholder="Анонс статьи" class="form-control"> <br>-->
-<!--            <textarea placeholder="Текст статьи" class="form-control"></textarea><br>-->
+<!--            <input type="text" placeholder="Название модуля" class="form-control"> <br>-->
+<!--            <input type="text" placeholder="Анонс модуля" class="form-control"> <br>-->
+<!--            <textarea placeholder="Текст модуля" class="form-control"></textarea><br>-->
 <!--            <input type="date"  class="form-control"> <br>-->
 <!--            <input type="time"  class="form-control"> <br>-->
-            <button class="btn btn-success" type="submit">Добавить статью</button>
+            <button class="btn btn-success" type="submit">Добавить модуль</button>
         </form>
     </div>
 {% endblock %}
