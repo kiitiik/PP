@@ -1,0 +1,10 @@
+{% extends 'main/layout.html' %}
+
+{% block content %}
+
+
+<div class="features">
+  <h1>Добро пожаловать!</h1>
+  <a href="{% url 'users:login' %}"><button class="btn btn-info">Войти в систему</button></a>
+</div>
+{% endblock %}
