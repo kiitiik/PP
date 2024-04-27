@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51e31f2f-a506-45ca-b2c1-788f4dad4380" name="Changes" comment="правки разрешения">
-      <change afterPath="$PROJECT_DIR$/pp/main/templates/main/video.html" afterDir="false" />
+    <list default="true" id="51e31f2f-a506-45ca-b2c1-788f4dad4380" name="Changes" comment="добавление видео">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp/main/static/main/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/pp/main/static/main/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp/main/templates/main/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp/main/templates/main/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp/main/templates/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pp/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp/main/templates/main/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pp/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pp/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pp/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp/news/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pp/news/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pp/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp/news/templates/news/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp/news/templates/news/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp/news/templates/news/details_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp/news/templates/news/details_view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp/news/templates/news/news-delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp/news/templates/news/news-delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pp/news/templates/news/news_hime.html" beforeDir="false" afterPath="$PROJECT_DIR$/pp/news/templates/news/news_hime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pp/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pp/news/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714149485563</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="добавление видео">
+      <option name="closed" value="true" />
+      <created>1714175361503</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714175361504</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +147,7 @@
     <MESSAGE value="Удаление и редактирование статьи" />
     <MESSAGE value="регистрация авторизация профиль" />
     <MESSAGE value="правки разрешения" />
-    <option name="LAST_COMMIT_MESSAGE" value="правки разрешения" />
+    <MESSAGE value="добавление видео" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление видео" />
   </component>
 </project>
